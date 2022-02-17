@@ -9,7 +9,9 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "eslint src --max-warnings=0"
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --max-warnings=0",
+    "typecheck": "yarn tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",
